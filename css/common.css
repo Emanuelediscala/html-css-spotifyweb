@@ -37,6 +37,12 @@
     border-radius: 1.5625rem;
 }
 /* WIDTH  */
+.wid10 {
+    width: 10%;
+}
+.wid15 {
+    width: 15%;
+}
 .wid30 {
     width: 30%;
 }
@@ -80,8 +86,14 @@
 .h30vw {
     height: 33vw;
 }
-
+.h100 {
+    height: 100%;
+}
 /* Padding  */
+.pad05em {
+    padding: 0.5em;
+}
+
 .pad1em {
     padding: 1.5em;
 }
@@ -124,6 +136,15 @@
 }
 
 /* BG color  */
+.bglightblack {
+    background-color: #080b12;
+}
+.bglightgray2 {
+    background-color: #282828;
+}
+.bglightblue2 {
+    background-color:#141922;
+}
 .bgBlueButton {
     background-color:#0061ff;
 }
@@ -167,6 +188,9 @@
 .jtfcontFlexstart {
     justify-content: flex-start;
 }
+.jtfcontFlexend {
+    justify-content: flex-end;
+}
 .column {
     flex-direction: column;
 }
@@ -193,6 +217,9 @@
 }
 .wrap {
     flex-wrap: wrap;
+}
+.gap05em {
+    gap: 0.5em;
 }
 .gap1em {
     gap: 1em;
