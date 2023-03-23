@@ -3,8 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: arial;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mynerve', cursive;
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .boxedLarge {
     max-width: 75rem;
@@ -43,6 +45,9 @@
 .wid15 {
     width: 15%;
 }
+.wid20 {
+    width: 20%;
+}
 .wid30 {
     width: 30%;
 }
@@ -73,6 +78,9 @@
 .wid100 {
     width: 100%;
 }
+.hei100calc {
+    height: calc(100% - 70px);
+}
 /* HEIGHT */
 .h80vh {
     height:80vh;
@@ -93,7 +101,9 @@
 .pad05em {
     padding: 0.5em;
 }
-
+.pad5px {
+    padding: 5px;
+} 
 .pad1em {
     padding: 1.5em;
 }
@@ -103,11 +113,14 @@
 .pad4em {
     padding: 4em;
 }
-.padUpDown2em {
-    padding: 2em 0;
+.padUpDown10px {
+    padding: 10px 0;
 }
 .padSide {
-    padding:0 2em;
+    padding:0 3px;
+}
+.padSide1em {
+    padding:0.5em 1em;
 }
 .padBottom0rem {
     padding-bottom: 0rem;
@@ -115,11 +128,17 @@
 .pad3emBottom {
     padding-bottom: 3em;
 }
+.padding-left-5px {
+    padding-left: 5px;
+}
 .overflowYHidden {
     overflow-y: scroll;
 }
 .relative {
     position: relative;
+}
+.fixed {
+    position: fixed;
 }
 /* Color  */
 .cWhite {
@@ -278,8 +297,11 @@
 .margin-right-5 {
     margin-right: .3125rem;
 }
-.margin-left-0 {
-    margin-left: 0rem;
+.margin-left-5 {
+    margin-left: 5px;
+}
+.margin-left-10 {
+    margin-left: 10px;
 }
 
 /* RESPONSIVE TABLET */
