@@ -159,7 +159,7 @@ footer .fa-circle-play {
 }
 footer .life-song-bar {
     background-color:#5a5a5a;
-    height: 25%;
+    height: 30%;
     border-radius: 25px;
 }
 footer .fa-volume:before {
@@ -175,4 +175,22 @@ footer .selected-volume-bar {
     width: 30%;
     background-color: white;
     height: 100%;
+}
+footer span:hover {
+    text-decoration: underline;
+}
+footer .fa-heart:hover, footer .fa-folder:hover {
+    color: white;
+}
+footer .settings:hover  .bgWhite{
+    background-color:yellowgreen;
+}
+.fa-cirle-dot:before {
+    font-size: 12px;
+}
+.fa-circle-dot {
+    transform:translateX(10px);
+}
+footer .volume-bar:hover .selected-volume-bar {
+    background-color: yellowgreen;
 }
