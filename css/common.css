@@ -38,6 +38,7 @@
 .border50 {
     border-radius: 50%;
 }
+
 /* WIDTH  */
 .wid10 {
     width: 10%;
@@ -465,11 +466,11 @@
     nav span {
         color: gray;
         font-size:17px;
-        font-weight: 900;
+        font-weight: 400;
     }
     nav p {
         color: gray;
-        font-weight: 900;
+        font-weight: 400;
     }
     /* MAIN  */
     .textCenter a {

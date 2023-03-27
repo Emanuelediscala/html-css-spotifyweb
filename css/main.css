@@ -11,7 +11,7 @@ nav {
     height: 100%;
 }
 nav p {
-    font-weight: 700;
+    font-weight: 400;
 }
 nav img {
     width: 100%;
@@ -31,6 +31,7 @@ main {
     width:100%;
     overflow-y: scroll;
 }
+
 main div > button {
     border-radius: 25px;
     border: 1px solid white;
@@ -49,6 +50,7 @@ main div > button:hover {
     font-size: 20px;
     margin-bottom: 15px;
 }
+
 .textCenter a {
     text-decoration: none;
     color:lightgray;
@@ -79,6 +81,7 @@ main div > button:hover {
 }
 .absolute .fa-circle-play  {
     font-size: 60px;
+    color: white;
 }   
 .card p {
     margin-top:10px;
